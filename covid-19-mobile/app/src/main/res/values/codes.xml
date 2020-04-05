@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_token" translatable="false">REGISTRATION_TOKEN</string>
+    <string name="uid" translatable="false">UID</string>
+    <string name="id_user" translatable="false">ID</string>
+    <string name="fcm_token" translatable="false">FIREBASE_CLOUD_MESSAGING_TOKEN</string>
+</resources>

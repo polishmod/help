@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "803965056404",
+    "firebase_url": "https://help-b26ff.firebaseio.com",
+    "project_id": "help-b26ff",
+    "storage_bucket": "help-b26ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803965056404:android:7324452bfad9b04a2b8b81",
+        "android_client_info": {
+          "package_name": "pl.mil.wp.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803965056404-i4l3bvmlqjcemt9vko64mpinsg63mgd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnN9e-EScDFS1hpkRo44LF57S5PoczoWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803965056404-i4l3bvmlqjcemt9vko64mpinsg63mgd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

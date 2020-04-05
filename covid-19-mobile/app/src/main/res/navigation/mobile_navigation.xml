@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="pl.mil.wp.help.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_questionnareFragment"
+            app:destination="@id/questionnareFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="pl.mil.wp.help.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_questionnareFragment"
+            app:destination="@id/questionnareFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_coughFragment"
+            app:destination="@id/coughFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_analyticsFragment"
+            app:destination="@id/analyticsFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_temperatureFragment"
+            app:destination="@id/temperatureFragment" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_temperatureFragment2"
+            app:destination="@id/temperatureFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="pl.mil.wp.help.ui.notifications.NotificationsFragment"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/questionnareFragment"
+        android:name="pl.mil.wp.help.ui.questionarre.QuestionnareFragment"
+        android:label="QuestionnareFragment" >
+        <action
+            android:id="@+id/action_questionnareFragment_to_questionnarySumaryFragment"
+            app:destination="@id/questionnarySumaryFragment"
+            app:popUpTo="@id/navigation_dashboard"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coughFragment"
+        android:name="pl.mil.wp.help.ui.coughrecording.CoughRecordingFragment"
+        android:label="CoughRecordingFragment" />
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="pl.mil.wp.help.ui.analytics.AnalyticsFragment"
+        android:label="fragment_analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/temperatureFragment"
+        android:name="pl.mil.wp.help.ui.TemperatureFragment"
+        android:label="TemperatureFragment" />
+    <fragment
+        android:id="@+id/temperatureFragment2"
+        android:name="pl.mil.wp.help.ui.TemperatureFragment2"
+        android:label="TemperatureFragment2" />
+    <fragment
+        android:id="@+id/questionnarySumaryFragment"
+        android:name="pl.mil.wp.help.ui.questionarre.QuestionnarySumaryFragment"
+        android:label="QuestionnarySumaryFragment" />
+</navigation>

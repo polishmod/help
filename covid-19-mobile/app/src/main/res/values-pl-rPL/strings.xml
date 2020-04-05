@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELP</string>
+    <string name="email_registration_name">Rejestracja przez email</string>
+    <string name="already_have_an_account_name">Posiadasz już konto?</string>
+    <string name="what_your_temperature_name">Jaką masz temperaturę?</string>
+    <string name="sign_up_name">Zaloguj się</string>
+    <string name="reenter_password_name">Powtórz hasło</string>
+    <string name="agree_with_terms_and_policy_name">Zgadzam się na warunki i politykę prywatności</string>
+    <string name="or_sign_up_with_name">lub zaloguj się za pomocą</string>
+    <string name="or_name">LUB</string>
+    <string name="register_with_by_name">Zarejestruj się za pomocą</string>
+    <string name="or_sign_in_with_name">Zaloguj się za pomocą</string>
+    <string name="restore_name">Przywróć</string>
+    <string name="forgot_your_password_name">Zapomniałeś hasła?</string>
+    <string name="password_name">Hasło</string>
+    <string name="email_name">Email</string>
+    <string name="sign_in_name">Zaloguj się</string>
+    <string name="accept_name">Akceptuj</string>
+    <string name="next_name">Dalej</string>
+    <string name="finish_name">Zakończ</string>
+    <string name="how_to_perform_name">Jak wykonać</string>
+    <string name="record_cough_name">Nagraj swój kaszel</string>
+    <string name="spo2_diagram_for_date_name">Diagram spo2 za dzień</string>
+    <string name="temperature_diagram_for_date_name">Diagram temperatury za dzień</string>
+    <string name="articles_name">Artykuły</string>
+    <string name="temperature_log_name">Dziennik temperatury</string>
+    <string name="cough_test_name">Test kaszlu</string>
+    <string name="analytics_name">Analityka</string>
+    <string name="questionnaire_name">Ankieta</string>
+    <string name="at_home_name">W DOMU</string>
+    <string name="settings">Ustawienia</string>
+    <string name="location_updated">HELP monitoruje Twoją lokalizacją i dba o Twoje zdrowie.</string>
+    <string name="title_notifications">Powiadomienia</string>
+    <string name="summary_questionnaire_text_to_user_name">Prawdopodobnie jesteś zarażony COVID-19. Myj często ręce, zakrywaj usta podczas kaszlu i obserwuj objawy choroby</string>
+    <string name="request_location_updates">"Prośba o aktualizacje lokalizacji "</string>
+    <string name="permission_rationale">Zezwolenie na dostęp do lokalizacji jest konieczne do działania aplikacji</string>
+    <string name="launch_activity">Pokaż aktywność</string>
+    <string name="permission_denied_explanation">Nie zezwolono na dostęp do lokalizacji, jednak jest ona konieczna do funkcjonowania aplikacji</string>
+    <string name="google_sign_in_failure_name">Logowanie za pomocą konta Google nie powiodło się</string>
+
+
+    <string name="question_fragment_abroad_text">Czy wróciłeś z zagranicy w ciągu ostatnich 14 dni?</string>
+    <string name="question_fragment_close_contact_with_diagnosed">Czy w ciągu ostatnich 14 dni miałeś bliski kontakt lub opiekę nad osobą, u której zdiagnozowano COVID-19?</string>
+    <string name="question_fragment_close_contact_with_travelers">Czy byłeś w bliskim kontakcie z kimkolwiek, kto podróżował w ciągu ostatnich 14 dni do jednego z krajów na liście ryzyka?</string>
+    <string name="question_fragment_hygiene">Czy przestrzegasz surowych zasad higieny i używasz osobistego wyposażenia ochronnego?</string>
+    <string name="question_fragment_symptoms_title">Wybierz swoje objawy:</string>
+    <string name="question_fragment_symptoms_fever">Gorączka</string>
+    <string name="question_fragment_symptoms_headache">Bół głowy</string>
+    <string name="question_fragment_symptoms_runny_nose">Katar</string>
+    <string name="question_fragment_symptoms_cough">Kaszel</string>
+    <string name="question_fragment_symptoms_sore_throat">Ból gardła</string>
+    <string name="question_fragment_symptoms_red_eyes">Czerwone oczy</string>
+    <string name="question_fragment_summary_title">Dziękujemy za wypełnienie ankiety!</string>
+    <string name="question_fragment_summary_explanation">Wypełniając ankietę pomagasz nie tylko sobie, ale również nam</string>
+    <string name="save_results">Zapisz wyniki</string>
+    <string name="fragment_cough_recording_start_recording">Rozpocznij nagrywanie</string>
+    <string name="fragment_cough_again_title">W porządku! Możesz kontynuować lub nagrać ponownie</string>
+    <string name="fragment_cough_analyzing">Analizowanie</string>
+    <string name="activity_image_trans">activityimagetransition</string>
+    <string name="anonymous_registration_name" >Rejestracja anonimowa</string>
+    <string name="or_using_name">LUB UŻYWAJĄC</string>
+
+    <string name="low_risk">Zagrożenie \nznikome</string>
+    <string name="medium_risk">Średnie \nzagrożenie</string>
+    <string name="high_risk">Wysokie \nzagrożenie</string>
+    <string name="diagnosing">Diagnozowanie…</string>
+    <string name="all_of_your_data_is_anonymised">Całość gromadzonych danych jest anonimowa</string>
+    <string name="register_success_info">Pomyślnie zarejestrowano. Można się zalogować</string>
+    <string name="register_failure_info">Rejestracja nie powiodła się</string>
+    <string name="register_response_not_successful_info">Nie udało się zarejestrować używając podanych danych</string>
+    <string name="terms_and_policy_shown_info">Warunki i zasady zostały pokazane</string>
+    <string name="login_failure_info">Logowanie nie powiodło się</string>
+    <string name="login_success_info">Pomyślnie zalogowano</string>
+    <string name="login_auth_problem_info">"Problem z uwierzytelnieniem. Spróbuj ponownie "</string>
+    <string name="login_invalid_credentials_info">Niepoprawne dane logowania</string>
+    <string name="save_results_success_info">Wyniki zostały zapisane</string>
+    <string name="temperature_save_results_success_info">Temperatura została zapisana</string>
+    <string name="record_audio_permission_required_info">Do wykonania tej czynności konieczne jest zezwolenie na nagrywanie dźwięku</string>
+    <string name="record_audio_init_failure_info">Błąd podczas inicjowania rejestratora audio</string>
+    <string name="not_implemented_info">Ta opcja będzie dostępna w kolejnej wersji aplikacji.</string>
+    <string name="notification_detected_infections_title">zarażenia wykryto dzisiaj w pobliżu.</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<nb-tabset (changeTab)="onChangeTab($event)">
+  <nb-tab tabTitle="Details" *ngIf="formModel" active="true" >
+
+    <ngx-dynamic-form #ngxForm [formModel]="formModel" [formTitle]="'User details'"></ngx-dynamic-form>
+    <nb-card>
+      <nb-card-footer>
+        <button (click)="onCancel()" class="btn btn-secondary mr-2" nbButton>Cancel</button>
+        <button (click)="onChangePassword()" class="btn btn-warning mr-2" nbButton>Change password</button>
+        <button (click)="ngxForm.updateModel();save()" [disabled]="ngxForm.form.invalid"
+                class="btn btn-success"
+                nbButton>Save
+        </button>
+      </nb-card-footer>
+    </nb-card>
+  </nb-tab>
+  <nb-tab tabTitle="Documents" *ngIf="formModel && formModel.object.id > 0">
+    <ngx-documents [ownerGuid]="formModel.object.guid" [title]="'Documents'">
+    </ngx-documents>
+  </nb-tab>
+  <nb-tab tabTitle="Notes" *ngIf="formModel && formModel.object.id > 0">
+    <ngx-notes [ownerGuid]="formModel.object.guid">
+    </ngx-notes>
+  </nb-tab>
+  <nb-tab tabTitle="Surveys" *ngIf="formModel && formModel.object.id > 0">
+    <ngx-config-based-table-component [tableConfig]="surveysConfig"></ngx-config-based-table-component>
+  </nb-tab>
+  <nb-tab tabTitle="Notifications" *ngIf="formModel && formModel.object.id > 0">
+    <ngx-config-based-table-component [tableConfig]="notificationsConfig"></ngx-config-based-table-component>
+  </nb-tab>
+  <nb-tab tabTitle="Routes" *ngIf="formModel && formModel.object.id > 0">
+    <nb-card>
+      <nb-card-header>User routes</nb-card-header>
+      <nb-card-body>
+        <ngx-ol-map *ngIf="showMap" #map></ngx-ol-map>
+      </nb-card-body>
+    </nb-card>
+  </nb-tab>
+</nb-tabset>

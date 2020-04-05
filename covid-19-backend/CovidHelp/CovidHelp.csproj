@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+	<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+	<LangVersion>7.1</LangVersion>
+	<UserSecretsId>5d6d216e-3df4-4cd0-9b32-f8d3ea1638a7</UserSecretsId>
+	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="angular\dist\**" />
+    <Compile Remove="angular\src\app\%2540theme\**" />
+    <Compile Remove="angular\src\app\%40theme\**" />
+    <Compile Remove="angular\src\app\pages\aps\**" />
+    <Compile Remove="images\**" />
+    <Compile Remove="uploads\**" />
+    <Content Remove="angular\dist\**" />
+    <Content Remove="angular\src\app\%2540theme\**" />
+    <Content Remove="angular\src\app\%40theme\**" />
+    <Content Remove="angular\src\app\pages\aps\**" />
+    <Content Remove="images\**" />
+    <Content Remove="uploads\**" />
+    <EmbeddedResource Remove="angular\dist\**" />
+    <EmbeddedResource Remove="angular\src\app\%2540theme\**" />
+    <EmbeddedResource Remove="angular\src\app\%40theme\**" />
+    <EmbeddedResource Remove="angular\src\app\pages\aps\**" />
+    <EmbeddedResource Remove="images\**" />
+    <EmbeddedResource Remove="uploads\**" />
+    <None Remove="angular\dist\**" />
+    <None Remove="angular\src\app\%2540theme\**" />
+    <None Remove="angular\src\app\%40theme\**" />
+    <None Remove="angular\src\app\pages\aps\**" />
+    <None Remove="images\**" />
+    <None Remove="uploads\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200403153414_Doctor.cs" />
+    <Compile Remove="Migrations\20200403153414_Doctor.Designer.cs" />
+    <Compile Remove="Migrations\20200404110452_Notifications.cs" />
+    <Compile Remove="Migrations\20200404110452_Notifications.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+<ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="1.9.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="NetCoreCommons" Version="3.1.59" />
+    <PackageReference Include="NetTopologySuite" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

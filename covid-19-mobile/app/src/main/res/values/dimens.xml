@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="register_title_space">64dp</dimen>
+    <dimen name="register_title_margin_top">32dp</dimen>
+    <dimen name="register_title_margin_start">16dp</dimen>
+    <dimen name="register_padding_left_right">16dp</dimen>
+    <dimen name="register_button_width">250dp</dimen>
+    <dimen name="register_button_height">60dp</dimen>
+    <dimen name="register_button_margin_top">32dp</dimen>
+    <dimen name="register_button_corner_radius">20dp</dimen>
+    <dimen name="register_or_sing_up_top_margin">48dp</dimen>
+    <dimen name="registration_sso_panel_top_margin">32dp</dimen>
+    <dimen name="dash_board_card_text_margin_bottom">8dp</dimen>
+    <dimen name="dashboard_image_margin">16dp</dimen>
+    <dimen name="dashboard_image_margin_bottom">8dp</dimen>
+    <dimen name="card_size">0dp</dimen>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_margin_half">6dp</dimen>
+    <dimen name="card_image_margin">12dp</dimen>
+</resources>

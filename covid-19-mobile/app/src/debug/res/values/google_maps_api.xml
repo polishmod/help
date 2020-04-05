@@ -1,0 +1,22 @@
+<resources>
+    <!--
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=AD:5F:BE:4D:93:22:D9:65:88:CB:18:0D:F6:95:BC:9E:A3:74:DB:ED%3Bpl.mil.wp.help
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    pl.mil.wp.help
+
+    SHA-1 certificate fingerprint:
+    AD:5F:BE:4D:93:22:D9:65:88:CB:18:0D:F6:95:BC:9E:A3:74:DB:ED
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDL_5RsZvNoXYmipmcqF8R2CnmkhD4wtb4</string>
+</resources>

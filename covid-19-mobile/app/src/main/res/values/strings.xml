@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">HELP</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="przypomnij_haslo" translatable="false">Remind me password</string>
+    <string name="rejestruj" translatable="false"><u>Registration</u></string>
+    <string name="zaloguj_si" translatable="false"><u>Log in</u></string>
+    <string name="location_updated">HELP monitors your location and cares about your health.</string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="request_location_updates">Request location updates</string>
+
+    <string name="default_notification_channel_id" translatable="false">1</string>
+    <string name="default_notification_channel_name" translatable="false">Default notification channel</string>
+
+    <string name="at_home_name">AT HOME</string>
+    <string name="questionnaire_name">Questionnaire</string>
+    <string name="analytics_name">Analytics</string>
+    <string name="cough_test_name">Cough test</string>
+    <string name="temperature_log_name">Temperature log</string>
+    <string name="articles_name">Articles</string>
+
+    <string name="temperature_diagram_for_date_name">TEMPERATURE DIAGRAM FOR DATE</string>
+    <string name="temperature_diagram_date_name" translatable="false">03.04.2020</string>
+    <string name="spo2_diagram_for_date_name">SPO2 DIAGRAM FOR DATE</string>
+    <string name="spo2_diagram_date_name" translatable="false">03.04.2020</string>
+
+    <string name="record_cough_name">Record your cough</string>
+    <string name="how_to_perform_name">How to perform</string>
+    <string name="finish_name">FINISH</string>
+
+    <string name="next_name">Next</string>
+    <string name="accept_name">Accept</string>
+
+    <string name="sign_in_name">Sign in</string>
+    <string name="email_name">Email</string>
+    <string name="password_name">Password</string>
+    <string name="forgot_your_password_name">Forgot your password?</string>
+    <string name="restore_name">Restore</string>
+    <string name="or_sign_in_with_name">or sign in with</string>
+
+    <string name="register_with_by_name">Register with by</string>
+    <string name="or_name">OR</string>
+    <string name="email_registration_name">Email registration</string>
+    <string name="already_have_an_account_name">Already have an account?</string>
+
+    <string name="summary_questionnaire_text_to_user_name">It is likely that you are infected with Covid-19. Wash your hands, cover your mouth when coughing, and observe the symptoms of the disease</string>
+
+    <string name="what_your_temperature_name">What\'s your temperature?</string>
+    <string name="temperature_value_name" translatable="false">36.0</string>
+
+    <string name="sign_up_name">Sign up</string>
+    <string name="reenter_password_name">Re-enter Password</string>
+    <string name="agree_with_terms_and_policy_name">I agree to the terms and privacy policy</string>
+    <string name="or_sign_up_with_name">or sign up with</string>
+
+    <string name="notification_extra_background" translatable="false">NOTIFICATION_TYPE</string>
+    <string name="notification_extra_foreground" translatable="false">NOTIFICATION_TYPE_FOREGROUND</string>
+    <string name="met_infected_location_extra" translatable="false">MET_INFECTED_LOCATION</string>
+
+    <string name="google_sign_in_failure_name">Google sign in failed</string>
+    <string name="server_client_id" translatable="false">803965056404-f3eomjdodro7ich85k10h4l9gcmcjg17.apps.googleusercontent.com</string>
+    <string name="question_fragment_abroad_text">Have you returned from abroad within the last 14 days?</string>
+    <string name="question_fragment_close_contact_with_diagnosed">Have you had close contact with or cared for someone diagnosed with COVID-19 within the last 14 days?</string>
+    <string name="question_fragment_close_contact_with_travelers">Have you been in close contact with anyone who has traveled within the last 14 days to one of the countries in risk list?</string>
+    <string name="question_fragment_hygiene">Have you been obeying strict hygiene rules and using personal protective equipment?</string>
+    <string name="question_fragment_symptoms_title">Select your symptoms:</string>
+    <string name="question_fragment_symptoms_fever">Fever</string>
+    <string name="question_fragment_symptoms_headache">Headache</string>
+    <string name="question_fragment_symptoms_runny_nose">Runny nose</string>
+    <string name="question_fragment_symptoms_cough">Cough</string>
+    <string name="question_fragment_symptoms_sore_throat">Sore throat</string>
+    <string name="question_fragment_symptoms_red_eyes">Red eyes</string>
+    <string name="question_fragment_summary_title">Thank you for completing the survey!</string>
+    <string name="question_fragment_summary_explanation">By completing the survey you help not only yourself but also us</string>
+    <string name="save_results">Save results</string>
+    <string name="fragment_cough_recording_start_recording">Start recording</string>
+    <string name="fragment_cough_again_title">All seems good! You can continue or check again.</string>
+    <string name="fragment_cough_analyzing">Analyzing</string>
+    <string name="activity_image_trans">activityimagetransition</string>
+    <string name="anonymous_registration_name">Register Anonymously</string>
+    <string name="or_using_name">OR USING</string>
+    <string name="low_risk">Low \nrisk</string>
+    <string name="medium_risk">Medium \nrisk</string>
+    <string name="high_risk">High \nrisk</string>
+    <string name="diagnosing">Diagnosing…</string>
+    <string name="all_of_your_data_is_anonymised">All of your data is anonymised</string>
+
+    <string name="register_success_info">Successfully registered. You can log in now</string>
+    <string name="register_failure_info">Registration failed</string>
+    <string name="register_response_not_successful_info">You cannot register with provider credentials</string>
+
+    <string name="terms_and_policy_shown_info">Terms and policy shown</string>
+
+    <string name="login_success_info">Login succeed</string>
+    <string name="login_failure_info">Login failed</string>
+    <string name="login_auth_problem_info">Problem with authentication. Try again</string>
+    <string name="login_invalid_credentials_info">Invalid credentials</string>
+    <string name="save_results_success_info">The results have been saved</string>
+    <string name="temperature_save_results_success_info">Temperature has been saved</string>
+
+    <string name="record_audio_permission_required_info">Record audio permission is necessary for this action</string>
+    <string name="record_audio_init_failure_info">Error while initializing audio recorder</string>
+
+    <string name="not_implemented_info">This option will be available in the next version of the application.</string>
+
+    <string name="notification_detected_infections_title">detected infections in vicinity today.</string>
+
+    <string name="data_permission_doctor_id_extra" translatable="false">DOCTOR_ID</string>
+    <string name="data_permission_doctor_name_extra" translatable="false">DOCTOR_NAME</string>
+</resources>
